@@ -34,7 +34,7 @@ function questionnaire() {
 function terminer() {
     console.log(" je suis dans la fonction terminer")
     // Redirige vers le questionnaire
-    window.location.href = "../../Accueil/exit.html";
+    window.location.href = "../../Accueil/exit2.html";
 }
 function afficherBoutonApresDelai() {
     var bouton = document.getElementById("boutonTerminer");
