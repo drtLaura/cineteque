@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.center-iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px; /* Ajustez la marge supérieure selon vos besoins */
+}
+
+button {
+    background-color: rgb(100, 149, 237);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(111, 112, 181)
+}
