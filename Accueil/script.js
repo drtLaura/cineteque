@@ -1,6 +1,7 @@
 let id = document.getElementById("id");
 let aleaId=Math.random().toString(36).substring(0, 6);
 id.innerHTML+=aleaId;
+let groupe;
 function fin(){
     console.log("La fonction fin a été appelée");
     // Ferme la page et ne commence pas le test
@@ -39,6 +40,7 @@ if (window.location.pathname.endsWith("accueil.html")) {
 console.log("La fonction rediriger a été appelée, je suis dans la condition");
 
 // affecter groupe 
+groupe=document.getElementById("groupe").textContent;
 
 // redirection 
 window.location.href="formConsentement.html";
