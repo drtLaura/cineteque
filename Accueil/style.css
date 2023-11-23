@@ -5,6 +5,7 @@ background-image:url("img/backgroung.jpg") ;
 
 .contenu {
 background-color:white;
+background-opacity:0.5;
 }
 
 h1 , h3{
