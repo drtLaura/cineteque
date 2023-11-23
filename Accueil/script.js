@@ -35,4 +35,13 @@ function rediriger(){
 
     }
 
+if (window.location.pathname.endsWith("accueil.html")) {
+console.log("La fonction rediriger a été appelée, je suis dans la condition");
+
+// affecter groupe 
+
+// redirection 
+window.location.href="formConsentement.html";
+}
+
 }
