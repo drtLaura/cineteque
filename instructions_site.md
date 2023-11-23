@@ -21,7 +21,7 @@ Voici la séquence de navigation pour un utilisateur :
 formulaire de consentement > accueil (choix du groupe) > (page genre > page pays > page note) x3 > questionnaire satisfaction et maitrise > remerciement
 
 Difficultées : 
-La navigation fonctionne cependant nous n'avons, pour le moment, pas terminé le script javascript qui va permettre de modifier la consigne trois fois. De plus, il va permettre de faire affiché le bouton "terminé" une fois les trois consignes réalisées. Nous avons un bug au niveau de l'indexconsigne qui est réinitialiser une fois la redirection sur la page genre. Ainsi, il y a une seule consigne qui peut tourner en boucle pour le moment. 
+La navigation fonctionne cependant nous n'avons, pour le moment, pas terminé le script javascript qui va permettre de modifier la consigne trois fois. De plus, il va permettre de faire affiché le bouton "terminé" une fois les trois consignes réalisées. Nous avons un bug au niveau de l'indexconsigne qui est réinitialisé une fois la redirection sur la page genre. Ainsi, il y a une seule consigne qui peut tourner en boucle pour le moment. 
 
 Nous aurions aussi besoin davantage d'explications sur le dépôt de notre site sur le lien que vous nous avez envoyé. 
 
