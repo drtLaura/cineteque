@@ -1,1 +1,25 @@
+body {
+    font-family: Verdana;
+}
+
+h1 , h3{
+    font-weight:bold ;
+    text-align:center;
+}
+
+#id {
+    font-size: small;
+    font-weight : lighter;
+    text-align:left;
+    margin-top:0px;
+}
+
+h3 {
+    margin-top:25px;
+}
+
+fieldset ,p {
+    text-align:center;
+    margin-top: 50px;
+}
 
