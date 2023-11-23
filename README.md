@@ -16,12 +16,14 @@ La première page est une page de consentement avec une consigne. Si l'utilisate
 Si l'utilisateur clique sur "non", celui-ci rest redirigé vers une page de fin. 
 Les 4 sites sont composés de la même façon : une consigne en rouge mène le sujet à naviguer sur trois pages successives (genre, pays et note). Une fois arrivé sur la page Note (page qui correspond à la fin de la consigne), il appuie sur "continuer". Ensuite, celui-ci est redirigé vers la page "genre" qui corresponds à la première page du site avec une nouvelle consigne. Une fois qu'il a effectué les trois consignes, l'utilisateur peut appuyer sur le bouton "terminer" qui le dirige vers un questionnaire de satisfaction et de niveau de maitrise. Une fois le questionnaire rempli, il appuie sur un nouveau bouton "terminer" qui le mène vers une page de remerciement.
 
-Voici la séquence de navigation pour un utilistaeur : 
+Voici la séquence de navigation pour un utilisateur : 
 
 formulaire de consentement > accueil (choix du groupe) > (page genre > page pays > page note) x3 > questionnaire satisfaction et maitrise > remerciement
 
 Difficultées : 
 La navigation fonctionne cependant nous n'avons, pour le moment, pas terminé le script javascript qui va permettre de modifier la consigne trois fois. De plus, il va permettre de faire affiché le bouton "terminé" une fois les trois consignes réalisées. Nous avons un bug au niveau de l'indexconsigne qui est réinitialiser une fois la redirection sur la page genre. Ainsi, il y a une seule consigne qui peut tourner en boucle pour le moment. 
+
+Nous aurions aussi besoin davantage d'explications sur le dépôt de notre site sur le lien que vous nous avez envoyé. 
 
 Merci d'avance pour votre retour, 
 
