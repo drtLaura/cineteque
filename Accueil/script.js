@@ -14,3 +14,11 @@ function redirigerTT() {
     
     window.location.href = "../TriTexte/genreTriTexte/indexGenreTT.html";
 }
+
+function redirigerAccepte(){
+    window.location.href="accueil.html";
+}
+
+function redirigerRefuse(){
+    window.location.href="exit.html";
+}
