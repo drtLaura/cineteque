@@ -1,5 +1,5 @@
 let consignes = ["rechercher une comédie française qui a une note de 2/10", "Consigne 2", "Consigne 3", /* autres consignes */];
-let indexConsigne = 0; // Initialisation de la variable globale
+var indexConsigne = 0; // Initialisation de la variable globale
 
 function afficherConsigne() {
     console.log('indexConsigne:', indexConsigne);
