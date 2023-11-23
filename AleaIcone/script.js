@@ -28,6 +28,8 @@ function rediriger() {
 
 function questionnaire() {
     // Redirige vers le questionnaire
+    let warning = "Veuillez finir de remplir les deux pages de questionnaires avant de cliquer sur terminer.";
+    document.wrtie(warning.fontcolor("#FF0000"));
     window.location.href = "formAleaIcone.html";
 }
 
