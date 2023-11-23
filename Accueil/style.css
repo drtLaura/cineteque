@@ -1,19 +1,32 @@
+:root {
+    --royalblue:rgb(65,105,225);
+    --cornflowerblue:rgb(100, 149, 237);
+    --midnightblue:rgb(25,25,112);
+    --silver:rgb(192,192,192);
+}
+
 body {
     font-family: Verdana;
-background-image:url("img/backgroung.jpg") ;
+    background-image: url("img/background.jpg") ;
 }
 
 .contenu {
-background-color:white;
-background-opacity:0.5;
+    background:rgba(255,255,255,0.5);
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    text-align: center;
 }
 
-h1 , h3{
+h1 {
+    color:var(--royalblue);
+}
+h1 , h2 {
     font-weight:bold ;
     text-align:center;
 }
 
-#id {
+#id , #grp {
     font-size: small;
     font-weight : lighter;
     text-align:left;
@@ -29,3 +42,18 @@ fieldset ,p {
     margin-top: 50px;
 }
 
+fieldset {
+    margin-left:25%;
+    margin-right:25%;
+    border-radius: 10px;
+    border-style:double;
+    border-color:var(--silver);
+}
+
+legend {
+    font-weight: bold;
+}
+
+#choixGroupe {
+    margin:10px;
+}
