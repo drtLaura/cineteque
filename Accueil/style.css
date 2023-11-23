@@ -26,13 +26,6 @@ h1 , h2 {
     text-align:center;
 }
 
-#id , #grp {
-    font-size: small;
-    font-weight : lighter;
-    text-align:left;
-    margin-top:0px;
-}
-
 h3 {
     margin-top:25px;
 }
@@ -48,6 +41,7 @@ fieldset {
     border-radius: 10px;
     border-style:double;
     border-color:var(--silver);
+    margin-bottom:10px;
 }
 
 legend {
