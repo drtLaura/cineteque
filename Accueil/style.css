@@ -3,6 +3,10 @@ body {
 background-image:url("img/backgroung.jpg") ;
 }
 
+.contenu {
+
+}
+
 h1 , h3{
     font-weight:bold ;
     text-align:center;
