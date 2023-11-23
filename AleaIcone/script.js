@@ -1,7 +1,7 @@
-const consignes = ["Rechercher un documentaire espagnol qui a une note de 2/10", "Consigne 2", "Consigne 3"];
+let consignes = ["rechercher une comédie française qui a une note de 2/10", "Consigne 2", "Consigne 3", /* autres consignes */];
+let indexConsigne = 0; // Initialisation de la variable globale
 
 function afficherConsigne() {
-    const indexConsigne = localStorage.getItem('indexConsigne') || 0;
     console.log('indexConsigne:', indexConsigne);
     console.log('consigne:', consignes[indexConsigne]);
     document.getElementById('instruction').innerText = consignes[indexConsigne];
@@ -16,11 +16,30 @@ function rediriger() {
     if (window.location.pathname.endsWith("indexFinAI.html")) {
         console.log("La fonction rediriger a été appelée, je suis dans la condition");
 
-        // Récupère et incrémente l'index
-        let indexConsigne = (parseInt(localStorage.getItem('indexConsigne')) + 1) % consignes.length;
-        localStorage.setItem('indexConsigne', indexConsigne);
+        // Incrémente l'index
+        indexConsigne = (indexConsigne + 1) % consignes.length;
 
         // Redirige vers la nouvelle page
         window.location.href = "../genreAleaIcone/indexGenreAI.html";
+        window.addEventListener('load', afficherConsigne);
+
     }
 }
+
+function questionnaire() {
+    // Redirige vers le questionnaire
+    window.location.href = "formAleaIcone.html";
+}
+
+function terminer() {
+    console.log(" je suis dans la fonction terminer")
+    // Redirige vers le questionnaire
+    window.location.href = "../../Accueil/exit.html";
+}
+function afficherBoutonApresDelai() {
+    var bouton = document.getElementById("boutonTerminer");
+    bouton.style.display = "block";
+}
+
+// Appeler la fonction après 1 minute
+setTimeout(afficherBoutonApresDelai, 60000); // 60000 millisecondes = 1 minute

@@ -5,21 +5,25 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-<div class="contenu">
-<h2>Quel est votre groupe ? </h2>
-<div id="choixGroupe">
-                <input type="checkbox" id="groupe1" name="groupe1" onclick="rediriger()"/>
-                <label for="groupe1">1</label>
-
-<input type="checkbox" id="groupe2" name="groupe2" onclick="rediriger()"/>
-                <label for="groupe2">2</label>
-
-<input type="checkbox" id="groupe3" name="groupe3" onclick="rediriger()"/>
-                <label for="groupe3">3</label>
-
-<input type="checkbox" id="groupe4" name="groupe4" onclick="rediriger()"/>
-                <label for="groupe4">4</label>
+        <style>
+        button {
+            background-color: #c294ec;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+        <div class="contenu">
+            <h2>Quel est votre groupe ? </h2>
+            <div id="choixGroupe">
+                <button onclick="redirigerAI()">Groupe 1 (AI)</button>
+                <button onclick="redirigerAT()">Groupe 2 (AT)</button>
+                <button onclick="redirigerTI()">Groupe 3 (TI)</button>
+                <button onclick="redirigerTT()">Groupe 4 (TT)</button>
             </div>
-</div>
-</body>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="..\script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .center-iframe {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin-top: 20px; /* Ajustez la marge supérieure selon vos besoins */
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        iframe {
+            margin-top: 20px; /* Ajustez la marge supérieure selon vos besoins */
+        }
+    </style>
+    
+</head>
+<body>
+
+<div class="center-iframe">
+    <button onclick="terminer()">Terminer</button>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNWW-4R17CO1jg1DNAyEdZKwZ_hZE60wOK0l1o-ugyozzw8A/viewform?embedded=true" width="640" height="1243" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+</div>
+
+</body>
+</html>
