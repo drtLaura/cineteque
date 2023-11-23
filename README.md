@@ -1,4 +1,4 @@
-# cinematèque
+# cinémathèque
 Bonjour, voici des indications pour lire notre site. 
 
 Premièrement, il se compose de plusieurs dossiers qui contiennent l'accueil, une bdd (pas encore faite) et les quatres dossiers restants (AleaIcone, AleaTexte, TriIcone, TriTexte) contiennent les pages des 4 sites de notre expérience. 
